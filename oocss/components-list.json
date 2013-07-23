@@ -98,8 +98,7 @@
                 {
                     "className": "boxBasic backgroundBasic",
                     "title": "A Basic Box",
-                    "body": "This box has a white background.",
-                    "doc": "this is a doc"
+                    "body": "This box has a white background and grey border"
                 }
             ]
         },

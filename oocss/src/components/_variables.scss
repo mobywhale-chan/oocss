@@ -67,9 +67,13 @@ $bgBasic: #fff;
    ========================================================================== */
 /* Contour */
 $boxBasicBorderRadius: $borderRadiusDefault;
+$boxBasicBorderColor: $lightGrey;
+
+/* Box head */
+$boxHeadBasicBg: $lightBlue;
 
 /* Box foot */
-$boxFootDivider: $blue;
+$boxFootBasicBg: $lightBlue;
 
 /* Divider
    ========================================================================== */
