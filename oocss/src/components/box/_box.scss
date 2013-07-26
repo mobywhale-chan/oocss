@@ -12,12 +12,17 @@
   position: relative;
 
   .boxHead,
-  .boxFoot {
-    @include clearfix-me(micro);
-    padding: 0 $baseGutter;
-  }
-
+  .boxFoot,
   .boxBody {
-    padding: 0 $baseGutter;
+    @include clearfix-me(micro);
+    padding: 10px $baseGutter;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
   }
 }
