@@ -102,6 +102,8 @@
 @include ooTableWhitespace();
 //Default spacing: 5px, 10px, 20px. 0 spacing is always added.
 
+@import "table/skin/tableStripe";
+
 /* ==========================================================================
    Form
    ========================================================================== */

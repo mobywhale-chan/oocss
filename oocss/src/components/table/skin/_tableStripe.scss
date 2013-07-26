@@ -1,0 +1,16 @@
+/**
+  * @desc         Stripey table
+  * @name         tableStripe
+  * @author       mobywhale
+  * @tested       chrome, firefox
+  * @requires     ---
+  */
+
+.tableStripe {
+  > tbody  {
+    tr:nth-child(even) th,
+    tr:nth-child(even) td {
+      background: $tableStripeBg;
+    }
+  }
+}

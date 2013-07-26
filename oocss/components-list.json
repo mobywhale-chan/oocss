@@ -256,7 +256,13 @@
         {
             "name": "table",
             "longname": "Table",
-            "path": "components/table"
+            "path": "components/table",
+            "skins":[
+                {
+                    "className":"tableStripe",
+                    "doc":"Stripey table"
+                }
+            ]
         },
         {
             "name":"button",
