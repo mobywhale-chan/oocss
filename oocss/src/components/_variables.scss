@@ -15,10 +15,11 @@
 
 /* Colors */
 $black: #313131;
-$blue: #1d4a83;
-$lightBlue: #9adeed;
-$grey: #666;
-$lightGrey: #999;
+$blue1: #1d4a83;
+$blue2: #9adeed;
+$grey1: #666;
+$grey2: #999;
+$grey3: #ccc;
 $red: #d92b2b;
 
 /* Border radius */
@@ -47,7 +48,7 @@ $baseTextColor: $black;
 
 /* Type Color */
 $typeHighlight: $red;
-$typeLowlight: $lightGrey;
+$typeLowlight: $grey2;
 
 /* Grid
    ========================================================================== */
@@ -57,8 +58,8 @@ $baseGutter: 20px;
 
 /* Link
    ========================================================================== */
-$linkColor: $blue;
-$linkHoverColor: $lightBlue;
+$linkColor: $blue1;
+$linkHoverColor: $blue2;
 
 /* Background
    ========================================================================== */
@@ -68,37 +69,38 @@ $bgBasic: #fff;
    ========================================================================== */
 /* Contour */
 $boxBasicBorderRadius: $borderRadiusDefault;
-$boxBasicBorderColor: $lightGrey;
+$boxBasicBorderColor: $grey2;
 
 /* Box head */
-$boxHeadBasicBg: $lightBlue;
+$boxHeadBasicBg: $blue2;
 
 /* Box foot */
-$boxFootBasicBg: $lightBlue;
+$boxFootBasicBg: $blue2;
 
 /* Divider
    ========================================================================== */
-$dividerColor: $blue;
+$dividerColor: $blue1;
 
 /* List
    ========================================================================== */
-$listInlineDividerBorder: $lightGrey;
-$listBorder: $lightGrey;
+$listInlineDividerBorder: $grey2;
+$listBorder: $grey2;
 
 /* Table
    ========================================================================== */
-$tableBorderColor: $blue;
+$tableBorderColor: $grey2;
+$tableStripBg:  $grey3;
 
 /* Form
    ========================================================================== */
 $labelLeftWidth: 30%;
-$formFieldBorder: 1px solid $grey;
-$placeholderText: $lightGrey;
+$formFieldBorder: 1px solid $grey1;
+$placeholderText: $grey2;
 
 /* Button
    ========================================================================== */
 $btnDefaultBg: #ddd;
-$btnDefaultBorder: $lightGrey;
+$btnDefaultBorder: $grey2;
 
 /* Template
    ========================================================================== */
@@ -113,7 +115,7 @@ $contentBg: #fff;
 $contentWidth: 960px;
 
 /* footer */
-$footerBorder: $lightGrey;
+$footerBorder: $grey2;
 
 
 
