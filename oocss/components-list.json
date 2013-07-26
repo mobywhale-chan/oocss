@@ -278,12 +278,6 @@
                     "btnType":"button",
                     "btnText":"Default button",
                     "doc":"Skin class. Default button style"
-                },
-                {
-                    "className":"btnLink",
-                    "btnType":"btnLink",
-                    "btnText":"Default button that use anchor tag",
-                    "doc":"Button that looks like a link"
                 }
             ]
         },

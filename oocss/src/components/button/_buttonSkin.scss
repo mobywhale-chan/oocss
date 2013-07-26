@@ -1,13 +1,11 @@
 /**
 * @desc         Button skins
-* @extends      .btn
+* @extends      .btnDefault
 */
 
-.btn {
-  padding: 10px;
-}
-
-.btnDefault {
+.btnDefault,
+a.btnDefault {
+  color: $btnDefaultTextColor;
   box-shadow: inset 0 -2px 0 $btnDefaultShadow;
   background: $btnDefaultBg;
   border-radius: 3px;

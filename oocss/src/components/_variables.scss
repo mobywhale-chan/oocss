@@ -15,8 +15,9 @@
 
 /* Colors */
 $black: #313131;
-$blue1: #61b2c4;
-$blue2: #b5e6f1;
+$blue1: #1d90a9;
+$blue2: #61b2c4;
+$blue3: #b5e6f1;
 $grey1: #666;
 $grey2: #999;
 $grey3: #eee;
@@ -72,10 +73,10 @@ $boxBasicBorderRadius: $borderRadiusDefault;
 $boxBasicBorderColor: $grey2;
 
 /* Box head */
-$boxHeadBasicBg: $blue2;
+$boxHeadBasicBg: $blue3;
 
 /* Box foot */
-$boxFootBasicBg: $blue2;
+$boxFootBasicBg: $blue3;
 
 /* Divider
    ========================================================================== */
@@ -99,9 +100,9 @@ $placeholderText: $grey2;
 
 /* Button
    ========================================================================== */
-$btnDefaultShadow: $blue1;
-$btnDefaultBg: $blue2;
-$btnDefaultBgHover: $blue2;
+$btnDefaultShadow: $blue2;
+$btnDefaultBg: $blue3;
+$btnDefaultTextColor: #000;
 
 /* Template
    ========================================================================== */
