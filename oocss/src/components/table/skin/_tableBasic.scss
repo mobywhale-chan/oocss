@@ -1,0 +1,15 @@
+/**
+  * @desc         Basic table
+  * @name         tableBasic
+  * @author       mobywhale
+  * @tested       chrome, firefox
+  * @requires     ---
+  */
+
+.tableBasic {
+  tbody {
+    td {
+      border-top: 1px solid $tableBasicBorderColor;
+    }
+  }
+}

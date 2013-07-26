@@ -15,8 +15,8 @@
 
 /* Colors */
 $black: #313131;
-$blue1: #1d4a83;
-$blue2: #9adeed;
+$blue1: #61b2c4;
+$blue2: #b5e6f1;
 $grey1: #666;
 $grey2: #999;
 $grey3: #eee;
@@ -88,7 +88,7 @@ $listBorder: $grey2;
 
 /* Table
    ========================================================================== */
-$tableBorderColor: $grey2;
+$tableBasicBorderColor: $grey2;
 $tableStripeBg:  $grey3;
 
 /* Form
@@ -99,8 +99,9 @@ $placeholderText: $grey2;
 
 /* Button
    ========================================================================== */
-$btnDefaultBg: #ddd;
-$btnDefaultBorder: $grey2;
+$btnDefaultShadow: $blue1;
+$btnDefaultBg: $blue2;
+$btnDefaultBgHover: $blue2;
 
 /* Template
    ========================================================================== */

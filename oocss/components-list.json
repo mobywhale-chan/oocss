@@ -259,6 +259,10 @@
             "path": "components/table",
             "skins":[
                 {
+                    "className":"tableBasic",
+                    "doc":"Basic table with border"
+                },
+                {
                     "className":"tableStripe",
                     "doc":"Stripey table"
                 }
@@ -270,10 +274,10 @@
             "path":"components/button",
             "skins":[
                 {
-                    "className":"btn",
+                    "className":"btnDefault",
                     "btnType":"button",
                     "btnText":"Default button",
-                    "doc":"Base class. Required. Skins and subclasses that extend <code>btn</code> should add their classname to this element."
+                    "doc":"Skin class. Default button style"
                 },
                 {
                     "className":"btnLink",
