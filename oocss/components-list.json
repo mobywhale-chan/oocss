@@ -49,8 +49,8 @@
                 {
                     "elementType": "p",
                     "title": "Type Highlight",
-                    "className": "typeHighlight1",
-                    "doc": "Skin class. Optional. Blue text"
+                    "className": "typeHighlight",
+                    "doc": "Skin class. Optional. Red text"
                 },
                 {
                     "elementType": "p",
